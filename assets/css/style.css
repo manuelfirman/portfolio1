@@ -1032,7 +1032,12 @@ img{
     }
 
     .work__content{
-        margin-top: 10rem;
+        margin-top: 5rem;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .work__img{
+        width: 80%;
     }
 
     .footer__container{
